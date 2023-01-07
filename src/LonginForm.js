@@ -16,10 +16,12 @@ function LonginForm() {
     let confirm = e.target.confirm.value;
     if (name === "" || email === "" || password === "" || confirm === "") {
       setError("All fields are important");
+      setSuccess("");
       return;
     }
     if (password !== confirm) {
       setError("password fields do not match");
+      setSuccess("");
       return;
     }
 

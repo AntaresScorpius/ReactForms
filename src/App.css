@@ -1,11 +1,12 @@
 body {
   color: white;
   background-color: black;
+  font-size: xx-large;
 }
 
 .container {
   /* border: 2px solid white; */
-  width: 800px;
+  width: 1000px;
   height: 700px;
   margin: 25px;
 }
@@ -20,11 +21,12 @@ body {
 input {
   color: white;
   margin: 10px;
-  width: 400px;
+  width: 100%;
   background-color: black;
   border: none;
   border-bottom: 1px solid white;
 }
 button {
   margin: 10px;
+  font-size: x-large;
 }
